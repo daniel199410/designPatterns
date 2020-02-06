@@ -4,3 +4,4 @@ A repo with a collection of design patterns
   * Singleton
   * Factory
   * Abstract factory
+  * Builder
