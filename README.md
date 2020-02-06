@@ -5,3 +5,5 @@ A repo with a collection of design patterns
   * Factory
   * Abstract factory
   * Builder
+* Structural patterns
+    * Adapter
