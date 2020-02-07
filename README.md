@@ -10,3 +10,4 @@ A repo with a collection of design patterns
     * Bridge
     * Composite
     * Decorator
+    * Flyweight
