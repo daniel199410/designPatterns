@@ -1,6 +1,6 @@
-package creational.factory.src.factory;
+package creational.factory.src.example1.factory;
 
-import creational.factory.src.interfaces.IConnection;
+import creational.factory.src.example1.interfaces.IConnection;
 
 public class Main {
 

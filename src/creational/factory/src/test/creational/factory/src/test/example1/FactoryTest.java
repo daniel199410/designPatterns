@@ -1,6 +1,6 @@
-package creational.factory.src.test;
+package creational.factory.src.test.example1;
 
-import creational.factory.src.factory.Factory;
+import creational.factory.src.example1.factory.Factory;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

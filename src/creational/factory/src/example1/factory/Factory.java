@@ -1,10 +1,10 @@
-package creational.factory.src.factory;
+package creational.factory.src.example1.factory;
 
-import creational.factory.src.implementations.MySQLConnection;
-import creational.factory.src.implementations.OracleConnection;
-import creational.factory.src.implementations.SqlServerConnection;
-import creational.factory.src.implementations.VoidConnection;
-import creational.factory.src.interfaces.IConnection;
+import creational.factory.src.example1.implementations.MySQLConnection;
+import creational.factory.src.example1.implementations.OracleConnection;
+import creational.factory.src.example1.implementations.SqlServerConnection;
+import creational.factory.src.example1.implementations.VoidConnection;
+import creational.factory.src.example1.interfaces.IConnection;
 
 public class Factory {
     

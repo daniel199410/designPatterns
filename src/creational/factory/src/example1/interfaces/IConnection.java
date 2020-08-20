@@ -1,4 +1,4 @@
-package creational.factory.src.interfaces;
+package creational.factory.src.example1.interfaces;
 
 public interface IConnection {
     

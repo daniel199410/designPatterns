@@ -1,6 +1,6 @@
-package creational.factory.src.implementations;
+package creational.factory.src.example1.implementations;
 
-import creational.factory.src.interfaces.IConnection;
+import creational.factory.src.example1.interfaces.IConnection;
 
 public class SqlServerConnection implements IConnection {
 
