@@ -1,10 +1,10 @@
-package creational.abstractFactory.abstractfactory;
+package creational.abstractFactory.example1.abstractfactory;
 
-import creational.abstractFactory.car.Car;
-import creational.abstractFactory.constants.Factory;
-import creational.abstractFactory.factories.Chevrolet;
-import creational.abstractFactory.factories.FordFactory;
-import creational.abstractFactory.factories.RenaultFactory;
+import creational.abstractFactory.example1.car.Car;
+import creational.abstractFactory.example1.constants.Factory;
+import creational.abstractFactory.example1.factories.Chevrolet;
+import creational.abstractFactory.example1.factories.FordFactory;
+import creational.abstractFactory.example1.factories.RenaultFactory;
 
 public abstract class AbstractFactory {
     

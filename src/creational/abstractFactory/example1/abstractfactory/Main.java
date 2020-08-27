@@ -1,4 +1,4 @@
-package creational.abstractFactory.abstractfactory;
+package creational.abstractFactory.example1.abstractfactory;
 
 public class Main {
 

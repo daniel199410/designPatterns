@@ -1,4 +1,4 @@
-package creational.abstractFactory.car;
+package creational.abstractFactory.example1.car;
 
 public class Serie3 extends Car{
 
