@@ -1,4 +1,4 @@
-package creational.builder.src;
+package creational.builder.example1.src;
 
 public class Pizza {
 	private String dough;

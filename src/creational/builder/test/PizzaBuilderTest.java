@@ -1,7 +1,7 @@
 package creational.builder.test;
 
-import creational.builder.src.Pizza;
-import creational.builder.src.PizzaBuilder;
+import creational.builder.example1.src.Pizza;
+import creational.builder.example1.src.PizzaBuilder;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
