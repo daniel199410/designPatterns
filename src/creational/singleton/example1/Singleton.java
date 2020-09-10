@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.example1;
 
 public class Singleton {
    
