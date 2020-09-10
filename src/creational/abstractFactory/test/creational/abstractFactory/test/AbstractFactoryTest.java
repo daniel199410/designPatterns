@@ -1,7 +1,7 @@
 package creational.abstractFactory.test;
 
-import creational.abstractFactory.abstractfactory.AbstractFactory;
-import creational.abstractFactory.constants.Factory;
+import creational.abstractFactory.example1.abstractfactory.AbstractFactory;
+import creational.abstractFactory.example1.constants.Factory;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
