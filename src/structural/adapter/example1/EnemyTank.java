@@ -1,4 +1,4 @@
-package structural.adapter;
+package structural.adapter.example1;
 
 public class EnemyTank implements EnemyAttacker {
 

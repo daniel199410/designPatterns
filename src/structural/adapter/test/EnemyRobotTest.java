@@ -1,7 +1,9 @@
-package structural.adapter;
+package structural.adapter.test;
 
 import org.junit.Before;
 import org.junit.Test;
+import structural.adapter.example1.EnemyRobot;
+import structural.adapter.example1.EnemyRobotAdapter;
 
 import static org.junit.Assert.assertEquals;
 
