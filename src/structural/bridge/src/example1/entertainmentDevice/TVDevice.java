@@ -1,4 +1,4 @@
-package structural.bridge.src.entertainmentDevice;
+package structural.bridge.src.example1.entertainmentDevice;
 
 public class TVDevice extends EntertainmentDevice{
 	

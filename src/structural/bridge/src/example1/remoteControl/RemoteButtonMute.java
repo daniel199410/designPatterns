@@ -1,6 +1,6 @@
-package structural.bridge.src.remoteControl;
+package structural.bridge.src.example1.remoteControl;
 
-import structural.bridge.src.entertainmentDevice.EntertainmentDevice;
+import structural.bridge.src.example1.entertainmentDevice.EntertainmentDevice;
 
 public class RemoteButtonMute extends RemoteButton {
 

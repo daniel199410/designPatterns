@@ -1,4 +1,4 @@
-package structural.bridge.src.entertainmentDevice;
+package structural.bridge.src.example1.entertainmentDevice;
 public abstract class EntertainmentDevice {
 	private int deviceState;
 	private int maxSetting;
