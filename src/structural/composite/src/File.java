@@ -10,7 +10,9 @@ public class File extends AbstractFile {
 
 	@Override
 	public String ls(int level) {
-		return String.join("", Collections.nCopies(level, " ")).concat(this.getName()).concat("\n");
+		return String.join("", Collections.nCopies(level, " "))
+				.concat(this.getName())
+				.concat("\n");
 	}
 
 }
