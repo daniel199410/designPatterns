@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Directory extends AbstractFile {
-	private List<AbstractFile> includedFiles;
+	private final List<AbstractFile> includedFiles;
 
 	public Directory(String name, List<AbstractFile> includedFiles) {
 		super(name);
@@ -20,11 +20,8 @@ public class Directory extends AbstractFile {
 				this.includedFiles
 				.stream()
 				.map(includedFile -> includedFile.ls(level + 1))
-				.reduce("", (acc, cur) -> acc.concat(cur))
+				.reduce("", String::concat)
 			);
 	}
 
-	public List<AbstractFile> getIncludedFiles() {
-		return includedFiles;
-	}
 }

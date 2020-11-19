@@ -11,7 +11,7 @@ public class test {
 	
 	@Test
 	public void shouldGetATree() {
-		final String a = 
+		final String expectedStructure =
 				"d1\n" + 
 				" d1f1\n" + 
 				" d2\n" + 
@@ -30,7 +30,7 @@ public class test {
 		Directory d5 = new Directory("d5", Collections.singletonList(new File("d5f1")));
 		Directory d4 = new Directory("d4", Arrays.asList(new File("d4f1"), d5));
 		Directory d1 = new Directory("d1", Arrays.asList(new File("d1f1"), d2, d3, d4, new File("d1f2")));
-		assertEquals(a, d1.ls(0));
+		assertEquals(expectedStructure, d1.ls(0));
 	}
 	
 	@Test
@@ -41,7 +41,11 @@ public class test {
 	
 	@Test
 	public void shouldGetADirectoryWithOnlyFiles() {
-		Directory d1 = new Directory("d1", Arrays.asList(new File("d1f1"), new File("d1f2"), new File("d1f3")));
+		Directory d1 = new Directory("d1", Arrays.asList(
+				new File("d1f1"),
+				new File("d1f2"),
+				new File("d1f3"))
+		);
 		assertEquals("d1\n d1f1\n d1f2\n d1f3\n", d1.ls(0));
 	}
 }

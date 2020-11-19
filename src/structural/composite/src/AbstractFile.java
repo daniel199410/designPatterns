@@ -1,7 +1,7 @@
 package structural.composite.src;
 
 public abstract class AbstractFile {
-	private String name;
+	private final String name;
 	
 	public AbstractFile(String name) {
 		this.name = name;
