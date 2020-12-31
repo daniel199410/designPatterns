@@ -1,7 +1,7 @@
-package structural.decorator.decorators;
+package structural.decorator.example1.decorators;
 
-import structural.decorator.abstractC.Beverage;
-import structural.decorator.abstractC.Decorator;
+import structural.decorator.example1.abstractC.Beverage;
+import structural.decorator.example1.abstractC.Decorator;
 
 public class Mocha extends Decorator {
 	

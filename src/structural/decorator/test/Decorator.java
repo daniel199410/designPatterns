@@ -1,9 +1,9 @@
 package structural.decorator.test;
 
 import org.junit.Test;
-import structural.decorator.components.Expresso;
-import structural.decorator.decorators.Caramel;
-import structural.decorator.decorators.Mocha;
+import structural.decorator.example1.components.Expresso;
+import structural.decorator.example1.decorators.Caramel;
+import structural.decorator.example1.decorators.Mocha;
 
 import static org.junit.Assert.assertEquals;
 
