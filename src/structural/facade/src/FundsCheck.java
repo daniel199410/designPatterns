@@ -7,20 +7,21 @@ public class FundsCheck {
 		return cashInAccount;
 	}
 	
-	public void decreaseCashInAccount(double cashWithdrawn) {
-		cashInAccount -= cashWithdrawn;
+	public boolean haveEnoughMoney(double cashToWithdrawal) {
+		return cashInAccount >= cashToWithdrawal;
 	}
-	
+
 	public double increaseCashInAccount(double cashDeposited) {
 		cashInAccount += cashDeposited;
 		return cashInAccount;
 	}
-	
-	public boolean haveEnoughMoney(double cashToWithdrawal) {
-		return cashInAccount >= cashToWithdrawal;
+
+	public double decreaseCashInAccount(double cashWithdrawn) {
+		cashInAccount -= cashWithdrawn;
+		return cashInAccount;
 	}
-	
+
 	public double makeDeposit(double cashToDeposit) {
-		return increaseCashInAccount(cashToDeposit);
+		return decreaseCashInAccount(cashToDeposit);
 	}
 }

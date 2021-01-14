@@ -1,7 +1,7 @@
 package structural.facade.src;
 
 public class SecurityCodeCheck {
-	private int securityCode = 1234;
+	private final int securityCode = 1234;
 	
 	public int getSecurityCode() {
 		return securityCode;

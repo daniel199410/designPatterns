@@ -9,7 +9,7 @@ public class FacadeTest {
 	@Test
 	public void should_make_deposit() throws Exception {
 		BankAccountFacade bankAccountFacade = new BankAccountFacade(12345678, 1234);
-		Assert.assertEquals(105.00, bankAccountFacade.withdrawCash(5.00), 2);
+		Assert.assertEquals(95.00, bankAccountFacade.withdrawCash(5.00), 2);
 	}
 	
 	@Test(expected = Exception.class)
