@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BulletFactory {
-    private static Map<BulletType, Bullet> bulletCache = new HashMap<>();
+    private static final Map<BulletType, Bullet> bulletCache = new HashMap<>();
 
     public static Bullet getBulletByType(BulletType type) {
         switch (type){
