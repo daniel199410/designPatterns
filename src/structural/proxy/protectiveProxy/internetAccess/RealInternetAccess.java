@@ -1,7 +1,7 @@
 package structural.proxy.protectiveProxy.internetAccess;
 
 public class RealInternetAccess implements OfficeInternetAccess {
-    private Integer employeeName;
+    private final Integer employeeName;
 
     public RealInternetAccess(Integer employeeName) {
         this.employeeName = employeeName;

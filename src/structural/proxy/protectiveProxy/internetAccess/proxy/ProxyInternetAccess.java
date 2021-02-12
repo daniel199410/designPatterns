@@ -10,8 +10,7 @@ import java.util.Optional;
 
 public class ProxyInternetAccess implements OfficeInternetAccess {
 
-    private Integer employeeId;
-    private RealInternetAccess realInternetAccess;
+    private final Integer employeeId;
 
     public ProxyInternetAccess(Integer employeeId) {
         this.employeeId = employeeId;
@@ -22,7 +21,7 @@ public class ProxyInternetAccess implements OfficeInternetAccess {
         DB db = DB.getInstance();
         Optional<Employee> employee = db.findById(this.employeeId);
         if(employee.isPresent() && isRoleEnabled(employee.get().getRol())) {
-            realInternetAccess = new RealInternetAccess((this.employeeId));
+            RealInternetAccess realInternetAccess = new RealInternetAccess((this.employeeId));
             return realInternetAccess.grantInternetAccess();
         }
         return false;
