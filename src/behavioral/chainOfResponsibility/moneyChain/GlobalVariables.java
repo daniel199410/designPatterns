@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package behavioral.chainOfResponsibility.moneyChain;
 
 import java.util.Map;
 

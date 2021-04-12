@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package behavioral.chainOfResponsibility.moneyChain;
 
 public abstract class MoneyChain {
     private MoneyChain next;

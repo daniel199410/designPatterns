@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package behavioral.chainOfResponsibility.moneyChain;
 
 public class FiftyThousandBill extends MoneyChain {
     @Override

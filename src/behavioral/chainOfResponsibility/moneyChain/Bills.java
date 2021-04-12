@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package behavioral.chainOfResponsibility.moneyChain;
 
 public enum Bills {
     TEN_THOUSAND(10000),
