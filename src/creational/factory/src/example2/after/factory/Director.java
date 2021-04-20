@@ -1,9 +1,9 @@
-package creational.factory.src.example2.after.factory;
+package after.factory;
 
-import creational.factory.src.example2.after.director.Converter;
-import creational.factory.src.example2.after.implementations.JSONConverter;
-import creational.factory.src.example2.after.implementations.XMLConverter;
-import creational.factory.src.example2.after.implementations.YMLConverter;
+import after.director.Converter;
+import after.implementations.JSONConverter;
+import after.implementations.XMLConverter;
+import after.implementations.YMLConverter;
 
 public class Director {
 

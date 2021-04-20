@@ -1,7 +1,7 @@
 package creational.factory.src.test.example2;
 
-import creational.factory.src.example2.after.factory.ConverterType;
-import creational.factory.src.example2.after.factory.Director;
+import after.factory.ConverterType;
+import after.factory.Director;
 import creational.factory.src.example2.before.Instance;
 import org.junit.After;
 import org.junit.AfterClass;

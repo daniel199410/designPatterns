@@ -1,6 +1,6 @@
-package creational.factory.src.example2.after.implementations;
+package after.implementations;
 
-import creational.factory.src.example2.after.director.Converter;
+import after.director.Converter;
 import creational.factory.src.example2.before.Instance;
 
 public class XMLConverter implements Converter {

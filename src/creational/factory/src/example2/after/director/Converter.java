@@ -1,4 +1,4 @@
-package creational.factory.src.example2.after.director;
+package after.director;
 
 import creational.factory.src.example2.before.Instance;
 
