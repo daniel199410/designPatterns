@@ -1,4 +1,4 @@
-package creational.abstractFactory.example2.after.abstractProduct;
+package after.abstractProduct;
 
 public abstract class Formatter {
     public abstract String beautify(String text);

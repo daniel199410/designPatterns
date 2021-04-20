@@ -1,10 +1,10 @@
-package creational.abstractFactory.example2.after.factory;
+package after.factory;
 
-import creational.abstractFactory.example2.after.abstractFactory.AbstractFactory;
-import creational.abstractFactory.example2.after.abstractProduct.Formatter;
-import creational.abstractFactory.example2.after.abstractProduct.Linter;
-import creational.abstractFactory.example2.after.concreteProduct.DefaultFormatter;
-import creational.abstractFactory.example2.after.concreteProduct.DefaultLinter;
+import after.abstractFactory.AbstractFactory;
+import after.abstractProduct.Formatter;
+import after.abstractProduct.Linter;
+import after.concreteProduct.DefaultFormatter;
+import after.concreteProduct.DefaultLinter;
 
 public class DefaultFactory extends AbstractFactory {
     @Override

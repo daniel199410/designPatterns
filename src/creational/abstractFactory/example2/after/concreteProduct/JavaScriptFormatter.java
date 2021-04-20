@@ -1,6 +1,7 @@
-package creational.abstractFactory.example2.after.concreteProduct;
+package after.concreteProduct;
 
-import creational.abstractFactory.example2.after.abstractProduct.Formatter;
+import after.abstractProduct.Formatter;
+import after.abstractProduct.Formatter;
 
 public class JavaScriptFormatter extends Formatter {
     @Override

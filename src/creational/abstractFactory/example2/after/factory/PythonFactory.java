@@ -1,10 +1,10 @@
-package creational.abstractFactory.example2.after.factory;
+package after.factory;
 
-import creational.abstractFactory.example2.after.abstractFactory.AbstractFactory;
-import creational.abstractFactory.example2.after.abstractProduct.Formatter;
-import creational.abstractFactory.example2.after.abstractProduct.Linter;
-import creational.abstractFactory.example2.after.concreteProduct.PythonFormatter;
-import creational.abstractFactory.example2.after.concreteProduct.PythonLinter;
+import after.abstractFactory.AbstractFactory;
+import after.abstractProduct.Formatter;
+import after.abstractProduct.Linter;
+import after.concreteProduct.PythonFormatter;
+import after.concreteProduct.PythonLinter;
 
 public class PythonFactory extends AbstractFactory {
     @Override

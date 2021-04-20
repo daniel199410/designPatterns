@@ -1,6 +1,6 @@
 package creational.abstractFactory.test;
 
-import creational.abstractFactory.example2.after.abstractFactory.AbstractFactory;
+import after.abstractFactory.AbstractFactory;
 import creational.abstractFactory.example2.before.EnumPlatform;
 import org.junit.After;
 import org.junit.AfterClass;

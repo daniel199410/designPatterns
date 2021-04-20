@@ -1,10 +1,10 @@
-package creational.abstractFactory.example2.after.factory;
+package after.factory;
 
-import creational.abstractFactory.example2.after.abstractFactory.AbstractFactory;
-import creational.abstractFactory.example2.after.abstractProduct.Formatter;
-import creational.abstractFactory.example2.after.abstractProduct.Linter;
-import creational.abstractFactory.example2.after.concreteProduct.JavaScriptFormatter;
-import creational.abstractFactory.example2.after.concreteProduct.JavaScriptLinter;
+import after.abstractFactory.AbstractFactory;
+import after.abstractProduct.Formatter;
+import after.abstractProduct.Linter;
+import after.concreteProduct.JavaScriptFormatter;
+import after.concreteProduct.JavaScriptLinter;
 
 public class JavaScriptFactory extends AbstractFactory {
     @Override

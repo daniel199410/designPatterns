@@ -1,11 +1,11 @@
-package creational.abstractFactory.example2.after.abstractFactory;
+package after.abstractFactory;
 
-import creational.abstractFactory.example2.after.abstractProduct.Formatter;
-import creational.abstractFactory.example2.after.abstractProduct.Linter;
-import creational.abstractFactory.example2.after.factory.DefaultFactory;
-import creational.abstractFactory.example2.after.factory.JavaFactory;
-import creational.abstractFactory.example2.after.factory.JavaScriptFactory;
-import creational.abstractFactory.example2.after.factory.PythonFactory;
+import after.abstractProduct.Formatter;
+import after.abstractProduct.Linter;
+import after.factory.DefaultFactory;
+import after.factory.JavaFactory;
+import after.factory.JavaScriptFactory;
+import after.factory.PythonFactory;
 import creational.abstractFactory.example2.before.EnumPlatform;
 
 public abstract class AbstractFactory {
