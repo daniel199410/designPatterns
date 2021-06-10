@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertEquals;
 
-public class Example1AfterTest {
+public class Example1TestAfterTest {
 
     @Test
     public void shouldSend3Notifications() {
