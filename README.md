@@ -14,3 +14,5 @@ A repo with a collection of design patterns
     * Proxy
 * Behavioral patterns
     * Chain of responsibility
+    * Command
+    * Interpreter
