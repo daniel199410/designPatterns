@@ -16,3 +16,4 @@ A repo with a collection of design patterns
     * Chain of responsibility
     * Command
     * Interpreter
+    * Mediator
