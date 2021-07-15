@@ -31,7 +31,7 @@ public class MediatorTest {
 
 	@Test
 	public void shouldBeAbleToRunSecondTaskWhenFirstTaskEnds() {
-		TaskExecutionMediator taskExecutionMediator = new TaskExecutionMediatorImpl(2);
+		TaskExecutionMediator taskExecutionMediator = new TaskExecutionMediatorImpl(1);
 		Task task = new Task(taskExecutionMediator, "task1");
 		Task task2 = new Task(taskExecutionMediator, "task2");
 		task.run();
