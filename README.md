@@ -17,3 +17,4 @@ A repo with a collection of design patterns
     * Command
     * Interpreter
     * Mediator
+    * Memento
