@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class IteratorImpl {
 
 	public String iteratorList() {
-		StringBuffer buffer = new StringBuffer();
+		StringBuilder buffer = new StringBuilder();
 		Iterable<Integer> numbers = Arrays.asList(1, 2, 3, 4);
 		for (int i : numbers) {
 			buffer.append(i);
@@ -15,7 +15,7 @@ public class IteratorImpl {
 	}
 
 	public String iteratorLinkedList() {
-		StringBuffer buffer = new StringBuffer();
+		StringBuilder buffer = new StringBuilder();
 		LinkedList<Integer> numbers = new LinkedList<>();
 		numbers.add(1);
 		numbers.add(2);
