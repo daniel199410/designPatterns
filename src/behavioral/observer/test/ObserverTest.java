@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 public class ObserverTest {
 
 	@Test
-	public void test() {
+	public void shouldBePlayerOneTurn() {
 		Subject subject = new ConcreteSubject();
 		GameObserver player1 = new GameObserver("player 1");
 		GameObserver player2 = new GameObserver("player 2");
@@ -20,8 +20,5 @@ public class ObserverTest {
 		subject.setState("player 1");
 		assertTrue(player1.getState());
 		assertFalse(player2.getState());
-		subject.setState("player 2");
-		assertTrue(player2.getState());
-		assertFalse(player1.getState());
 	}
 }

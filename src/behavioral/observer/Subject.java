@@ -14,7 +14,7 @@ public abstract class Subject {
 		this.observers.remove(observer);
 	}
 
-	protected void broadcast() {
+	void broadcast() {
 		this.observers.forEach(Observer::update);
 	}
 
