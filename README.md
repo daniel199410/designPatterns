@@ -1,15 +1,17 @@
 # designPatterns
 A repo with a collection of design patterns
-* Creational patterns
+* Creation patterns
   * Singleton
   * Factory
   * Abstract factory
   * Builder
+  * Prototype
 * Structural patterns
     * Adapter
     * Bridge
     * Composite
     * Decorator
+    * Facade
     * Flyweight
     * Proxy
 * Behavioral patterns
