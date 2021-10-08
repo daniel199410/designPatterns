@@ -20,3 +20,4 @@ A repo with a collection of design patterns
     * Memento
     * Observer
     * State
+    * Strategy
