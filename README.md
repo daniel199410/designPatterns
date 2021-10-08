@@ -1,4 +1,4 @@
-# designPatterns
+# Design patterns
 A repo with a collection of design patterns
 * Creation patterns
   * Singleton
