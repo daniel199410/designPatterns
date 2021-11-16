@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class StrategyTest {
+public class TemplateMethodTest {
 	@Test
 	public void shouldSendByEmail() {
 		Context context = new Context(StrategyFactory.getStrategy(Strategies.EMAIL));
